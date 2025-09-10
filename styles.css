@@ -25,6 +25,43 @@
 #oy{
 	color: yellow;
 }
+#search{
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	width: 400px;
+	height: 30px;
+}
+.btn{
+	background-color: #ccc;
+	border:none;
+}
+#footer{
+	margin-top: 180px;
+	background-color: #ccc;
+	display: flex;
+	justify-content: space-between
+	
+	
+}
+p{
+	display: inline;
+	margin: 15px;
+}
+#first{
+	display: inline;
+}
+#second{
+	display: inline;
+}
+#input-search{
+	display: flex;
+	justify-content: center;
+}
+#button-data{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
 #gb{
 	color: blue;
 }
