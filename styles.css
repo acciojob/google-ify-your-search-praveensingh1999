@@ -43,6 +43,9 @@
 	
 	
 }
+button{
+	border: none;
+}
 p{
 	display: inline;
 	margin: 15px;
