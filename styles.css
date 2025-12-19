@@ -1,83 +1,11 @@
-/*  your css code here. If applicable */
-#container{
-	width: 100vw;
-	height: 100vh;
+button:hover {
+    background-color: #ddd; /* Change color on hover */
 }
-#navigator-bar{
-	display: flex;
-	justify-content: end;
-	margin-right: 20px;
-	
-	
-}
-#google{
-	display: flex;
-	justify-content: center;
-	margin-top: 40px;
-	font-size: 30px;
-}
-#g{
-	color: blue;
-}
-#or{
-	color: red;
-}
-#oy{
-	color: yellow;
-}
-#search{
-	border: 1px solid #ccc;
-	border-radius: 20px;
-	width: 400px;
-	height: 30px;
-}
-.btn{
-	background-color: #ccc;
-	border:none;
-}
-#footer{
-	margin-top: 180px;
-	background-color: #ccc;
-	display: flex;
-	justify-content: space-between
-	
-	
-}
-button{
-	border: none;
-}
-p{
-	display: inline;
-	margin: 15px;
-}
-#first{
-	display: inline;
-}
-#second{
-	display: inline;
-}
-#input-search{
-	display: flex;
-	justify-content: center;
-}
-#button-data{
-	display: flex;
-	justify-content: center;
-	margin-top: 30px;
-}
-#gb{
-	color: blue;
-}
-#l{
-	color: green;
-}
-#e{
-	color: red;
-}
-#sign{
-	background-color: blue;
-	border: 2px solid blue;
-}
-button{
-	margin: 10px;
+@media (max-width: 600px) {
+    #input-search {
+        flex-direction: column; /* Stack elements on small screens */
+    }
+    #search {
+        width: 90%; /* Make search input responsive */
+    }
 }
