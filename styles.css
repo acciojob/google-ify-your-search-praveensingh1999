@@ -1,11 +1,57 @@
-button:hover {
-    background-color: #ddd; /* Change color on hover */
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-@media (max-width: 600px) {
-    #input-search {
-        flex-direction: column; /* Stack elements on small screens */
-    }
-    #search {
-        width: 90%; /* Make search input responsive */
-    }
+
+#navigator-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#input-search {
+    margin: 20px 0;
+}
+
+#search {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+#first, #second {
+    display: flex;
+    align-items: center;
+}
+
+#first a {
+    margin-left: 10px;
 }
